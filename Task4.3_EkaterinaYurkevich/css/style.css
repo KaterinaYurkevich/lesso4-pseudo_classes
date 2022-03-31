@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #FFFAF3;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: 660px;
+    background-position: right top;
+    padding-top: 43px;
+}
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+}
+
+.box_nav {
+    max-width: 470px;
+    padding-bottom: 35.5px;
+    border-bottom: solid 1px #C08D5D;
+    overflow: auto;
+}
+
+.logo {
+    float: left;
+    vertical-align: center;
+}
+
+nav {
+    float: right;
+    padding-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    margin-right: 48px;
+}
+
+.active {
+    color: #C08D5D;
+}
+
+main {
+    padding-top: 122.5px;
+}
+
+.box_main {
+    max-width: 535px;
+}
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+    color: #3F4042;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    overflow: auto;
+    padding-bottom: 25px;
+}
+
+span {
+    display: block;
+    text-transform: none;
+    font-size: 50px;
+    overflow: auto;
+}
+
+span::after {
+    content: '';
+    display: inline-block;
+    width: 45px;
+    height: 69px;
+    background-image: url(../images/Logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h1::after {
+    content: '';
+    display: block;
+    width: 165px;
+    height: 12px;
+    background-image: url(../images/line.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    line-height: 147.6%;
+    padding-bottom: 72px;
+}
+
+.more {
+    display: inline-block;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    line-height: 60px;
+    text-decoration: none;
+    color: #3F4042;
+    border: solid 2px #C08D5D;
+    padding-left: 15px;
+    margin-bottom: 62px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.more::after {
+    content: '';
+    display: inline-block;
+    background: #C08D5D;
+    width: 59px;
+    height: 64px;
+    margin-left: 11px;
+    background-image: url(../images/symbol.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.mouse {
+    display: block;
+    text-align: center;
+}
