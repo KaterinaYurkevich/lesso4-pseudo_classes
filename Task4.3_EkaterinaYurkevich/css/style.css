@@ -21,14 +21,14 @@ body {
 
 .box_nav {
     max-width: 470px;
-    padding-bottom: 35.5px;
+    padding-bottom: 36px;
     border-bottom: solid 1px #C08D5D;
     overflow: auto;
 }
 
 .logo {
     float: left;
-    vertical-align: center;
+    vertical-align: middle;
 }
 
 nav {
@@ -48,7 +48,8 @@ nav a {
 }
 
 main {
-    padding-top: 122.5px;
+    padding-top: 123px;
+    padding-bottom: 69px;
 }
 
 .box_main {
@@ -62,15 +63,14 @@ h1 {
     font-weight: 400;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    overflow: auto;
     padding-bottom: 25px;
 }
 
 span {
-    display: block;
+    display: inline-block;
     text-transform: none;
     font-size: 50px;
-    overflow: auto;
+    vertical-align: sub;
 }
 
 span::after {
@@ -81,6 +81,7 @@ span::after {
     background-image: url(../images/Logo.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    vertical-align: sub;
 }
 
 h1::after {
@@ -97,7 +98,7 @@ h1::after {
 p {
     font-size: 18px;
     letter-spacing: 0.06em;
-    line-height: 147.6%;
+    line-height: 148%;
     padding-bottom: 72px;
 }
 
@@ -123,7 +124,7 @@ p {
     height: 64px;
     margin-left: 11px;
     background-image: url(../images/symbol.svg);
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     vertical-align: middle;
 }
